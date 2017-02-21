@@ -5,7 +5,7 @@
 - Beam of electrons emitted by electron gun passes through diverting and focusing systems and hits a phosphor coated screen
 - The light from the phosphor fades quickly and a redraw is required. This type of CRT is called a  **refresh CRT**
 
-![Cathode Ray](/CG/images/Cathode_Ray.png)
+![Cathode Ray](/CG/images/Cathode_ray.png)
 
 
 ### Primary Components:
