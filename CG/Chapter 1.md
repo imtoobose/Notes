@@ -1,5 +1,4 @@
 # CG: Chapter 1
-#cg
 
 ## Cathode Ray Tubes
 ### Working:
@@ -7,7 +6,7 @@
 - The light from the phosphor fades quickly and a redraw is required. This type of CRT is called a  **refresh CRT**
 
 ### Primary Components:
-- 	**Heated metal cathode**
+- **Heated metal cathode**
 	- Heat is supplied to the cathode through a coil of wire called the filament inside the cathode 
 	- Electrons get “boiled off” the cathode
 	- Electrons are accelerated with an accelerating anode
@@ -60,7 +59,6 @@
 ## Raster Scan Display
 - Electron beam is swept across the screen top to bottom, left to right
 - **Refresh buffer / Frame buffer**: memory area that holds set of intensity values for all screen points.
-- 
  
 
 
