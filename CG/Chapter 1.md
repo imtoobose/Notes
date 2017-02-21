@@ -6,7 +6,7 @@
 - The light from the phosphor fades quickly and a redraw is required. This type of CRT is called a  **refresh CRT**
 
 ### Primary Components:
-- **Heated metal cathode**
+- 	**Heated metal cathode**
 	- Heat is supplied to the cathode through a coil of wire called the filament inside the cathode 
 	- Electrons get “boiled off” the cathode
 	- Electrons are accelerated with an accelerating anode
@@ -59,13 +59,40 @@
 ## Raster Scan Display
 - Electron beam is swept across the screen top to bottom, left to right
 - **Refresh buffer / Frame buffer**: memory area that holds set of intensity values for all screen points.
- 
+	- Called a **bitmap** on black and white systems, **pixmap** on color systems 
+- Refresh rates are usually **60-80fps**
+- **Horizontal Retrace**: return to the left after every scan line
+- **Vertical Retrace**: return to the top left after full scan
+- **Interlacing**: A technique in which first scan only shows every other line, then after vertical retrace, shows the rest of the lines
+	- This speeds up the refresh rate by double
 
+## Random Scan Display
+- Electron beam only goes directed parts
+	- Also called vector display, stoke writing or calligraphic display
+- Picture definition stored as commands in **refresh display file** (or refresh buffer, display list, display program)
+- Designed for line drawing not shaded scenes
+- Has higher resolution
+- Smoother line drawings
 
+## Color CRT
+- Two methods:
+	- Beam penetration
+	- Shadow mask
 
+### Beam penetration 
+- Usually used with random scan 
+- Two layers of phosphor used: red and green
+- Depending on penetration (which depends on speed of electron), red, green or a combination is shown
+- **Advantage:** Inexpensive
+- **Disadvantage:**
+	- Only four colors are possible
+	- Bad picture quality 
 
-
-
-
-
-		
+### Shadow mask 
+- 	Usually used with raster scan
+- Three color dots at each position: RGB
+- Dots may be in a triangular pattern or along the same line
+- Three electron guns are used, one for each color
+- The beams pass through a shadow mask and activate a triangle
+- Colors are adjusted by changing intensity of the individual beams
+ 	
