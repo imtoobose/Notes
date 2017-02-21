@@ -5,7 +5,7 @@
 - Beam of electrons emitted by electron gun passes through diverting and focusing systems and hits a phosphor coated screen
 - The light from the phosphor fades quickly and a redraw is required. This type of CRT is called a  **refresh CRT**
 
-![Cathode Ray](/images/Cathode_Ray.png)
+![Cathode Ray](/CG/images/Cathode_Ray.png)
 
 
 ### Primary Components:
@@ -99,4 +99,4 @@
 - The beams pass through a shadow mask and activate a triangle
 - Colors are adjusted by changing intensity of the individual beams
  	
- ![Shadow mask technique](/images/Shadow_mask.png)
+ ![Shadow mask technique](/CG/images/Shadow_mask.png)
