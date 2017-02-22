@@ -9,7 +9,7 @@ Written in markdown, so I can publish these to Github easily.
 Subjects I intend to put in this repository
 
 Semester 4:
-- CG: Computer Graphics
+- [CG: Computer Graphics](/CG/)
 - COA: Computer Organization and Architecture
 - AOA: Analysis of Algorithms
 - DBMS: Database management systems
