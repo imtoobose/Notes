@@ -1,5 +1,4 @@
 # Introduction to Database Concepts
-#dbms
 
 ## Terminology
 - **Database**: A collection of related data.
