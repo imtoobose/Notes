@@ -12,5 +12,5 @@ Semester 4:
 - [CG: Computer Graphics](/CG/)
 - COA: Computer Organization and Architecture
 - AOA: Analysis of Algorithms
-- DBMS: Database management systems
+- [DBMS: Database management systems](/DBMS/)
 - TCS: Theory of Computer Science
