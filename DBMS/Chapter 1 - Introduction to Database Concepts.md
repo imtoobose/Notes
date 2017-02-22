@@ -27,7 +27,7 @@
 	
 - **Program-operation independence**: The user does not know about the implementation of operations of data. They are simply exposed to an abstraction layer for these operations. 
 	- Program definition is independent of the implementation of operations
-
+	
 - DBMS gives users a conceptual view of data without implementation details
 
 ### Support of multiple views of data
@@ -64,7 +64,7 @@
 		4. Standalone Users:
 			- Use personal database with readymade programs
 4. **Software Engineers:**
-- Responsible for creating canned transactions, testing, debugging etc.
+	- Responsible for creating canned transactions, testing, debugging etc.
 
 ### Workers behind the scene
 1. **DBMS System designers and implementers**
