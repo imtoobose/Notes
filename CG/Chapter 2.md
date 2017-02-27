@@ -48,45 +48,48 @@
 ![Midpoint Ellipse Region 2](/CG/images/MIDPOINT_ELLIPSE_2.png)
 
 ``` c
-void ellipseMidpoint(float xc, float yc, float rx, float ry)
+void ellipseMidpoint(float xc, float yc, float a, float b)
 {
-    float rxSq = rx * rx;
-    float rySq = ry * ry;
+    float aSq = a * a;
+    float bSq = b * b;
     float x = 0, y = ry, p;
-    float px = 0, py = 2 * rxSq * y;
+    float px = 0, py = 2 * aSq * y;
 
     drawEllipse(xc, yc, x, y);
 
     //Region 1
-    p = rySq - (rxSq * ry) + (0.25 * rxSq);
+    p = aSq - (aSq * b) + (0.25 * aSq);
+
     while (px < py)
     {
         x++;
-        px = px + 2 * rySq;
+        px = px + 2 * bSq;
         if (p < 0)
-            p = p + rySq + px;
+            p = p + bSq + px;
         else
         {
             y—;
-            py = py - 2 * rxSq;
-            p = p + rySq + px - py;
+            py = py - 2 * aSq;
+            p = p + bSq + px - py;
         }
+
         drawEllipse(xc, yc, x, y);
     }
 
     //Region 2
-    p = rySq*(x+0.5)*(x+0.5) + rxSq*(y-1)*(y-1) - rxSq*rySq;
+    p = bSq*(x+0.5)*(x+0.5) + aSq*(y-1)*(y-1) - aSq*bSq;
+
     while (y > 0)
     {
         y—;
-        py = py - 2 * rxSq;
+        py = py - 2 * aSq;
         if (p > 0)
-            p = p + rxSq - py;
+            p = p + aSq - py;
         else
         {
             x++;
-            px = px + 2 * rySq;
-            p = p + rxSq - py + px;
+            px = px + 2 * bSq;
+            p = p + aSq - py + px;
         }
         drawEllipse(xc, yc, x, y);
     }
